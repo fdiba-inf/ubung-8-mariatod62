@@ -2,8 +2,8 @@ package exercise8;
 
 public class Point {
     // Define attributes
-    private double x;
-    private double y;
+     double x;
+     double y;
 
     public Point() {
         // Initialize attributes to 0
@@ -26,9 +26,9 @@ public class Point {
 
     public void initialize() {
         // Change attributes through console
-        System.out.println("Give X: ");
+        System.out.println("Enter x: ");
         x = Utils.INPUT.nextDouble();
-        System.out.println("Give Y: ");
+        System.out.println("Enter y: ");
         y = Utils.INPUT.nextDouble();
     }
 
