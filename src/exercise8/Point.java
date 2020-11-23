@@ -26,9 +26,9 @@ public class Point {
 
     public void initialize() {
         // Change attributes through console
-        System.out.println("Enter x: ");
+        System.out.print("Enter x: ");
         x = Utils.INPUT.nextDouble();
-        System.out.println("Enter y: ");
+        System.out.print("Enter y: ");
         y = Utils.INPUT.nextDouble();
     }
 
